@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  ::ng-deep mat-form-field {
+    .mat-form-field-flex {
+      height: 40px;
+      padding: 0;
+    }
+
+    .mat-form-field-outline {
+      top: 0;
+    }
+
+    .mat-form-field-infix {
+      border-top-width: 0;
+      padding: 0;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+
+      input {
+        margin-top: 0;
+      }
+    }
+
+    .mat-form-field-wrapper {
+      padding: 0;
+      margin: 0;
+    }
+  }
+}
+
+mat-icon {
+  height: 18px;
+  width: 18px;
+  font-size: 18px;
+  line-height: 18px !important;
+}
